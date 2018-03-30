@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   
   # User
   s.author             = { "BY" => "mengqiangjia@gmail.com" } # 作者信息
-  s.social_media_url   = "http://initialj.github.io" # 个人主页
+  s.social_media_url   = "https://github.com/initialj" # 个人主页
 
 end
