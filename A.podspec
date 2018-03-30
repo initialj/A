@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "A" # 项目名称
   s.version      = "0.0.1"        # 版本号 与 你仓库的 标签号 对应
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }          # 开源证书
+  s.license      = "MIT"          # 开源证书
   s.summary      = "模块A私有pods" # 项目简介
 
   s.homepage     = "https://github.com/initialj/A" # 仓库的主页
