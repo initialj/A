@@ -7,7 +7,7 @@
 //
 
 #import "AViewController.h"
-//#import "BViewController.h"
+#import <B_Category/CTMediator+B.h>
 #import <HandyFrame/UIView+LayoutMethods.h>
 
 @interface AViewController ()
@@ -38,7 +38,8 @@
 - (void)didTappedPushBViewControllerButton:(UIButton *)button
 {
 //    BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
-//    [self.navigationController pushViewController:viewController animated:YES];
+    UIViewController* viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"test"];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 #pragma mark - getters and setters
