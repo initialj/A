@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0" #平台及支持的最低版本
   # s.frameworks = "UIKit", "Foundation" #支持的框架
   s.dependency "HandyFrame" # 依赖库
+  s.dependency "B_Category"
   
   # User
   s.author             = { "BY" => "mengqiangjia@gmail.com" } # 作者信息
